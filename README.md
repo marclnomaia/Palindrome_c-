@@ -5,5 +5,5 @@
 The user can type a word or phrase and the program will return true or false.</h3>
 
 div align="center"
-img src="https://desblogada.files.wordpress.co..." width="700px" /
+img src="https://github.com/marclnomaia/Palindrome_c-/issues/1#issue-1565131906" width="700px" /
 /div
