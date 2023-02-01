@@ -8,7 +8,7 @@ namespace Palindrome
         {
             string word;
 
-            Console.WriteLine("type a word or phrase!");
+            Console.WriteLine("type a word or phrase to check!");
             word = Console.ReadLine();
             int x = word.Length - 1;
 
@@ -20,7 +20,7 @@ namespace Palindrome
                     {
                         if (x == 0)
                         {
-                            Console.WriteLine("E Palindrome");
+                            Console.WriteLine("It's a  Palindrome");
                             Console.ReadLine();
                         }
                         x--;
@@ -28,7 +28,7 @@ namespace Palindrome
                     }
                     else
                     {
-                        Console.WriteLine("Nao e Palindrome!");
+                        Console.WriteLine("It's not a Palindrome!");
                         i = word.Length;
                         x = -1;
                         Console.ReadLine();
